@@ -6,6 +6,7 @@ import github from "../assets/githubforcontact.svg";
 import linkedin from "../assets/linkedinforcontact.svg";
 import arrow from "../assets/arrowforbutton.svg";
 import Contactcard from "./Contactcard";
+import {motion} from 'framer-motion';
 
 interface ContactForm {
     full_name: string;
@@ -53,7 +54,11 @@ const Contact = (): JSX.Element => {
 
   return (
     <section id="contact">
-      <div className="h-auto mx-auto max-w-[1100px] px-10 py-32" id="about">
+                  <motion.div 
+          initial={{ y: '-30px', opacity: 0}}
+          whileInView={{ y: '0', opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1 }} className="h-auto mx-auto max-w-[1100px] px-10 py-32" id="about">
         <div className="flex flex-col gap-y-5">
           <p className="uppercase text-blue-500 text-4xl font-extrabold">
             Contact
@@ -155,7 +160,7 @@ const Contact = (): JSX.Element => {
             </form>
           </div> */}
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 };

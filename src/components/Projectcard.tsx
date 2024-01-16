@@ -1,5 +1,4 @@
 import React from "react";
-import picture from "../assets/nubelson-fernandes-QNch8putqnU-unsplash.jpg";
 import github from "../assets/githubforbutton.svg";
 import arrow from "../assets/arrowforbutton.svg";
 import { Link, NavLink } from "react-router-dom";
