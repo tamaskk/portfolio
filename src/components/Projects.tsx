@@ -32,8 +32,9 @@ const Projects = () => {
       technology1: "Next.js",
       technology2: "MongoDB",
       describe:
-      "Palapia: Culinary excellence with secure JWT authentication for registration/login. Explore diverse dishes on the main page, filterable with an elegant panel. Authenticated users enjoy full recipes, contribute, and save favorites. Profiles allow password changes and insights. Admins manage recipes, approvals, declines, and removals. Efficiently handle contact messages and deletion requests for a polished user experience.",      urlToCode: "",
-      urlToLiveDemo: "",
+      "Palapia: Culinary excellence with secure JWT authentication for registration/login. Explore diverse dishes on the main page, filterable with an elegant panel. Authenticated users enjoy full recipes, contribute, and save favorites. Profiles allow password changes and insights. Admins manage recipes, approvals, declines, and removals. Efficiently handle contact messages and deletion requests for a polished user experience.",
+      urlToCode: "https://github.com/tamaskk/palapia",
+      urlToLiveDemo: "https://palapia.vercel.app/",
       version: 2,
     },
     {
